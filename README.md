@@ -11,7 +11,7 @@ Discord WebHook's on certaind event's such as:
 ## To-Do 🔧
 - [ ] Suggest it!
 
-## Soporte? 👮‍♀️
+  ## Support 👮‍♀️
 Support will be given on our Discord (https://discord.pandacommunity.org/premades)
 
 ## Support US 💕
