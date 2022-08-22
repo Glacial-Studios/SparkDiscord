@@ -1,4 +1,4 @@
-<h1 align="center">PandaDiscord 🐼</h1>
+<h1 align="center">🐼 PandaDiscord 🐼</h1>
 
 PandaDiscord is a very simple system which sends 
 Discord WebHook's on certaind event's such as:
