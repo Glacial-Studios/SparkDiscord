@@ -21,7 +21,7 @@ public class ChatWebHook implements Listener {
             embedObject.setTitle(ConfigFile.getConfig().getString("CHAT.WEBHOOK-TITLE")
                     .replace("{player}", event.getPlayer().getName())
                     .replace("{message}", event.getMessage()));
-            embedObject.setDescription(buildDescription(ConfigFile.getConfig().getStringList("CHAT.WEBHOOK-DESCRIPTION"))
+            embedObject.setDescription(discordWebHook.buildDescription(ConfigFile.getConfig().getStringList("CHAT.WEBHOOK-DESCRIPTION"))
                     .replace("{player}", event.getPlayer().getName())
                     .replace("{message}", event.getMessage()));
             embedObject.setColor(Color.decode(ConfigFile.getConfig().getString("CHAT.WEBHOOK-COLOR")));
@@ -34,9 +34,5 @@ public class ChatWebHook implements Listener {
                 e.printStackTrace();
             }
         }
-    }
-    private String buildDescription(List<String> description) {
-        String toReturn = description.toString();
-        return toReturn.substring(1, toReturn.length() - 1).replace(", ", "%line%");
     }
 }

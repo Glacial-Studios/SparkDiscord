@@ -155,6 +155,11 @@ public class DiscordWebHook {
         connection.disconnect();
     }
 
+    public String buildDescription(List<String> description) {
+        String toReturn = description.toString();
+        return toReturn.substring(1, toReturn.length() - 1).replace(", ", "%line%");
+    }
+
     public static class EmbedObject {
         private String title;
         private String description;
