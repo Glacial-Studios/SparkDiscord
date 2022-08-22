@@ -21,7 +21,7 @@ public class JoinWebHook implements Listener {
             embedObject.setTitle(ConfigFile.getConfig().getString("JOIN.WEBHOOK-TITLE")
                     .replace("{player}", event.getPlayer().getName()
                     ));
-            embedObject.setDescription(buildDescription(ConfigFile.getConfig().getStringList("JOIN.WEBHOOK-DESCRIPTION"))
+            embedObject.setDescription(discordWebHook.buildDescription(ConfigFile.getConfig().getStringList("JOIN.WEBHOOK-DESCRIPTION"))
                     .replace("{player}", event.getPlayer().getName()
                     ));
             embedObject.setColor(Color.decode(ConfigFile.getConfig().getString("JOIN.WEBHOOK-COLOR")));
@@ -34,9 +34,5 @@ public class JoinWebHook implements Listener {
                 e.printStackTrace();
             }
         }
-    }
-    private String buildDescription(List<String> description) {
-        String toReturn = description.toString();
-        return toReturn.substring(1, toReturn.length() - 1).replace(", ", "%line%");
     }
 }
