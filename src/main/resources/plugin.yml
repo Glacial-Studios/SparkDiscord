@@ -1,4 +1,0 @@
-main: dev.panda.discord.PandaDiscord
-name: PandaDiscord
-version: ${project.version}
-author: Guayabita, iAldo80 & ConneM
