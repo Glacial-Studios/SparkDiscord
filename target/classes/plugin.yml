@@ -1,4 +1,4 @@
 main: dev.spark.discord.SparkDiscord
 name: SparkDiscord
-version: ${project.version}
+version: 1.0-SNAPSHOT
 author: Guayabita, iAldo80
