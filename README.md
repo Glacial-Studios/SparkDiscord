@@ -1,6 +1,6 @@
-<h1 align="center">🐼 PandaDiscord 🐼</h1>
+<h1 align="center">⚡ SparkDiscord ⚡</h1>
 
-PandaDiscord is a very simple system which sends 
+SparkDiscord is a very simple system which sends 
 Discord WebHook's on certaind event's such as:
 
 - Starting/Stopping Server.
@@ -12,7 +12,7 @@ Discord WebHook's on certaind event's such as:
 - [ ] Suggest it!
 
   ## Support 👮‍♀️
-Support will be given on our Discord (https://discord.pandacommunity.org/premades)
+Support will be given on our Discord (https://discord.gg/ppjStkDeS8)
 
 ## Support US 💕
 
@@ -25,4 +25,4 @@ All original comments and credits have to be KEPT in the code.
 You can only use this for private and personal use, not commercial use.
 If you use this, you have to credit PandaCommunity as well as linking this repository.
 
-© 2022 - PandaCommunity
+© 2023 - Spark Operations
